@@ -10,9 +10,4 @@ class PostsController < ApplicationController
   def create
     Post.create(content: params[:content])
   end
-
-  def destroy
-  end
-
-  
 end
