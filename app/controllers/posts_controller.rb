@@ -10,8 +10,5 @@ class PostsController < ApplicationController
   def create
     Post.create(content: params[:content])
   end
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 4226269... showアクションの追記
 end
